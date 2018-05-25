@@ -53,7 +53,7 @@
 @end
 
 @implementation CALayer(CornerRadius)
--(void)setCornerRadius: (CGFloat)cornerRadius style: (JCALCR)style
+-(void)setCornerRadius: (CGFloat)cornerRadius style: (CALCR)style
 {
 	CAShapeLayer *sl = [CAShapeLayer layer];
 	NSBezierPath *bp = [NSBezierPath bezierPathWithRoundedRect: self.bounds xRadius: cornerRadius yRadius: cornerRadius];

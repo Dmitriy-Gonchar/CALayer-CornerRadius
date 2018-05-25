@@ -8,7 +8,7 @@
 #import <Cocoa/Cocoa.h>
 #import <QuartzCore/QuartzCore.h>
 
-typedef NS_ENUM(NSUInteger, JCALCR) {
+typedef NS_ENUM(NSUInteger, CALCR) {
 	CALCRBottom = 0,
 	CALCRTop = 1,
 	CALCRLeft = 2,
@@ -16,5 +16,5 @@ typedef NS_ENUM(NSUInteger, JCALCR) {
 };
 
 @interface CALayer(CornerRadius)
--(void)setCornerRadius:(CGFloat)cornerRadius style: (JCALCR) style;
+-(void)setCornerRadius:(CGFloat)cornerRadius style: (CALCR) style;
 @end
